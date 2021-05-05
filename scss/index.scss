@@ -37,6 +37,7 @@ nav a:hover{
 
 }
 
+
 //generality
 .generality {
     width: 100%;
@@ -59,10 +60,41 @@ nav a:hover{
 
 }
 
+//introduce
 
+.introduce {
+    width: 100%;
+    background-color: #1147a8;
+    color: #fff;
+    min-height: 300px;
+}
+
+.introduce h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.introduce p{
+    font-size: 30px;
+    text-align: center;
+}
+.introduce .col{
+    text-align: center;
+}
+
+.introduce .col {
+    text-align: center;
+    background: #2a5db4;
+    margin: 20px;
+    padding: 20px;
+    min-height: 300px;
+}
 
 
 
 a{
     text-decoration: none;
+}
+h1,h2,h3,h4,h5{
+    margin: 0px;
 }
