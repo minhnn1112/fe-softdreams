@@ -6,27 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="page-homes">
         <div class="header">
-            <div class="container">
-                <div class="home">
-                    <a href="#">HOME</a>
-                </div>
-                <div class="nav">
-                    <nav>
-                        <ul class="desktop">
-                            <li><a href="#">Trang chủ</a></li>
-                            <li><a href="#">Sản phẩm</a></li>
-                            <li><a href="#">Giải pháp</a></li>
-                            <li><a href="#">Khách hàng</a></li>
-                            <li><a href="#">Công ty</a></li>
-                            <li><a href="#">Tin tức</a></li>
-                            <li><a href="#">Liên hệ</a></li>
-                        </ul>
-                    </nav>
+            <div class="container d-flex">
+                <div class="logo">
+                    <a href="#">
+                        <img src="/images/header/softdreams-logo.png" alt="logo">
+                    </a>
+                </div>             
+                <div class="menu-header d-flex">
+                    <ul class="d-flex sub-menu">
+                        <li><a href="#">HOME</a></li>
+                        <li class="softdreams"><a href="#">SOFTDREAMS</a>
+                            <ul class="sub-menu-header">
+                                <li><a href="#">Tin tức</a></li>
+                                <li><a href="#">Hình ảnh</a></li>
+                                <li><a href="#">Hoạt động</a></li>
+                            </ul>
+                        </li>
+                        <li class="softdreams"><a href="#">SẢN PHẨM</a>
+                            <ul class="sub-menu-header">
+                                <li><a href="#">HDDT</a></li>
+                                <li><a href="#">EASYCA</a></li>
+                                <li><a href="#">PMKT</a></li>
+                                <li><a href="#">BHXH</a></li>
+                                <li><a href="#">HDDV</a></li>
+                            </ul>
+                        </li>
+                        <li class="softdreams"><a href="#">GIẢI PHÁP</a>
+                            <ul class="sub-menu-header">
+                                <li><a href="#">HDDT</a></li>
+                                <li><a href="#">EASYSIGN</a></li>
+                                <li><a href="#">PMKT</a></li>
+                                <li><a href="#">CLOUD</a></li>
+                                <li><a href="#">WEB</a></li>
+                                <li><a href="#">EMAIL</a></li>
+                                <li><a href="#">VOICE</a></li>
+                                <li><a href="#">HRM</a></li>
+                                <li><a href="#">CRM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">ĐĂNG NHẬP</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -38,7 +65,7 @@
                         <p>Giải pháp quản trị Doanh nghiệp #1 Việt Nam được tin dùng bởi +5.000 doanh nghiệp hàng đầu</p>
                     </div>
                     <div class="graphic">
-                        <img src="#" alt="graphic" class="desktop">
+                        <img src="/images/main/home.svg" alt="graphic" class="desktop">
                     </div>
                 </div>
             </section>
@@ -48,25 +75,25 @@
                     <p>text</p>
                     <div class="row">
                         <div class="col">
-                            <img src="#" alt="Work">
+                            <img src="/images/main/pack.work.svg" alt="Work">
                             <h1 class="work">Work+</h1>
                             <p>text</p>
                             <a href="#">Xem thêm</a>
                         </div>
                         <div class="col">
-                            <img src="#" alt="Info">
+                            <img src="/images/main/pack.info.svg" alt="Info">
                             <h1 class="work">Info+</h1>
                             <p>text</p>
                             <a href="#">Xem thêm</a>
                         </div>
                         <div class="col">
-                            <img src="" alt="HRM">
+                            <img src="/images/main/pack.hrm.svg" alt="HRM">
                             <h1 class="work">HRM+</h1>
                             <p>text</p>
                             <a href="#">Xem thêm</a>
                         </div>
                         <div class="col">
-                            <img src="#" alt="Sales">
+                            <img src="/images/main/pack.sales.svg" alt="Sales">
                             <h1 class="work">Sales+</h1>
                             <p>text</p>
                             <a href="#">Xem thêm</a>
@@ -78,7 +105,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="#" alt="intro">
+                            <img src="/images/main/platform.svg" alt="intro">
                         </div>
                         <div class="col-md-8">
                             <h2>title h2</h2>
@@ -146,40 +173,52 @@
                     </div>
                     <div class="row">
                         <div class="item col-md-4">
-                            <img src="#" alt="item1">
-                            <a class="title-item" href="#">Title item 1</a>
-                            <p>text description</p>
-                            <a href="#">Xem thêm</a>
+                            <div class="item-area">
+                                <img src="#" alt="item1">
+                                <a class="title-item" href="#">Title item 1</a>
+                                <p>text description</p>
+                                <a href="#">Xem thêm</a>
+                            </div>
                         </div>
                         <div class="item col-md-4">
-                            <img src="#" alt="item2">
-                            <a class="title-item" href="#">Title item 2</a>
-                            <p>text description</p>
-                            <a href="#">Xem thêm</a>
+                            <div class="item-area">
+                                <img src="#" alt="item1">
+                                <a class="title-item" href="#">Title item 2</a>
+                                <p>text description</p>
+                                <a href="#">Xem thêm</a>
+                            </div>
                         </div>
                         <div class="item col-md-4">
-                            <img src="#" alt="item3">
-                            <a class="title-item" href="#">Title item 3</a>
-                            <p>text description</p>
-                            <a href="#">Xem thêm</a>
+                            <div class="item-area">
+                                <img src="#" alt="item1">
+                                <a class="title-item" href="#">Title item 3</a>
+                                <p>text description</p>
+                                <a href="#">Xem thêm</a>
+                            </div>
                         </div>
                         <div class="item col-md-4">
-                            <img src="#" alt="item4">
-                            <a class="title-item" href="#">Title item 4</a>
-                            <p>text description</p>
-                            <a href="#">Xem thêm</a>
+                            <div class="item-area">
+                                <img src="#" alt="item1">
+                                <a class="title-item" href="#">Title item 4</a>
+                                <p>text description</p>
+                                <a href="#">Xem thêm</a>
+                            </div>
                         </div>
                         <div class="item col-md-4">
-                            <img src="#" alt="item5">
-                            <a class="title-item" href="#">Title item 5</a>
-                            <p>text description</p>
-                            <a href="#">Xem thêm</a>
+                            <div class="item-area">
+                                <img src="#" alt="item1">
+                                <a class="title-item" href="#">Title item 5</a>
+                                <p>text description</p>
+                                <a href="#">Xem thêm</a>
+                            </div>
                         </div>
                         <div class="item col-md-4">
-                            <img src="#" alt="item6">
-                            <a class="title-item" href="#">Title item 6</a>
-                            <p>text description</p>
-                            <a href="#">Xem thêm</a>
+                            <div class="item-area">
+                                <img src="#" alt="item1">
+                                <a class="title-item" href="#">Title item 6</a>
+                                <p>text description</p>
+                                <a href="#">Xem thêm</a>
+                            </div>
                         </div>
                     </div>
                     <div class="items-ft">
@@ -194,9 +233,11 @@
                         <img src="#" alt="extend">
                     </div>
                     <div class="col-md-8">
-                        <h2>title h2</h2>
-                        <h1>title h1</h1>
-                        <p>text description extend</p>
+                        <div class="content-ex">
+                            <h2>title h2</h2>
+                            <h1>title h1</h1>
+                            <p>text description extend</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -204,9 +245,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
-                            <h2>title h2</h2>
-                            <h1>title h1</h1>
-                            <p>text description extend</p>
+                            <div class="content-int">
+                                <h2>title h2</h2>
+                                <h1>title h1</h1>
+                                <p>text description extend</p>
+                            </div>
                         </div>
                         <div class="col-md-4">
                             <img src="#" alt="integration">
@@ -222,24 +265,48 @@
                     </div>
                     <div class="row">
                         <div class="best-app col-md-3">
-                            <img src="#" alt="best-app1">
-                            <a class="title-item" href="#">Title best-app 1</a>
-                            <p>text description</p>
+                            <div class="card">
+                                <a href="#">
+                                    <img src="/images/main/pack.work.svg" alt="Avatar" style="width:100%">
+                                </a>
+                                    <div class="text">
+                                  <h4><b>John Doe</b></h4> 
+                                  <p>Architect & Engineer</p> 
+                                </div>
+                              </div>
                         </div>
                         <div class="best-app col-md-3">
-                            <img src="#" alt="best-app2">
-                            <a class="title-item" href="#">Title best-app 2</a>
-                            <p>text description</p>
+                            <div class="card">
+                                <a href="#">
+                                    <img src="/images/main/pack.hrm.svg" alt="Avatar" style="width:100%">
+                                </a>
+                                <div class="text">
+                                  <h4><b>John Doe</b></h4> 
+                                  <p>Architect & Engineer</p> 
+                                </div>
+                              </div>
                         </div>
                         <div class="best-app col-md-3">
-                            <img src="#" alt="best-app3">
-                            <a class="title-item" href="#">Title best-app 3</a>
-                            <p>text description</p>
+                            <div class="card">
+                                <a href="#">
+                                    <img src="/images/main/pack.info.svg" alt="Avatar" style="width:100%">
+                                </a>
+                                    <div class="text">
+                                  <h4><b>John Doe</b></h4> 
+                                  <p>Architect & Engineer</p> 
+                                </div>
+                              </div>
                         </div>
                         <div class="best-app col-md-3">
-                            <img src="#" alt="best-app4">
-                            <a class="title-item" href="#">Title best-app 4</a>
-                            <p>text description</p>
+                            <div class="card">
+                                <a href="#">
+                                    <img src="/images/main/pack.sales.svg" alt="Avatar" style="width:100%">
+                                </a>
+                                <div class="text">
+                                  <h4><b>John Doe</b></h4> 
+                                  <p>Architect & Engineer</p> 
+                                </div>
+                              </div>
                         </div>
                     </div>
                 </div>
