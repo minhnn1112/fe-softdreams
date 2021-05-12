@@ -1,0 +1,13 @@
+.customer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: #ccc;
+}
+
+.footer a {
+  color: #000;
+  display: flex;
+}

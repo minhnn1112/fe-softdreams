@@ -13,50 +13,7 @@
 </head>
 <body>
     <div class="page-homes">
-        <div class="header">
-            <div class="container d-flex">
-                <div class="logo">
-                    <a href="#">
-                        <img src="/images/header/softdreams-logo.png" alt="logo">
-                    </a>
-                </div>             
-                <div class="menu-header d-flex">
-                    <ul class="d-flex sub-menu">
-                        <li><a href="#">HOME</a></li>
-                        <li class="softdreams"><a href="#">SOFTDREAMS</a>
-                            <ul class="sub-menu-header">
-                                <li><a href="#">Tin tức</a></li>
-                                <li><a href="#">Hình ảnh</a></li>
-                                <li><a href="#">Hoạt động</a></li>
-                            </ul>
-                        </li>
-                        <li class="softdreams"><a href="#">SẢN PHẨM</a>
-                            <ul class="sub-menu-header">
-                                <li><a href="#">HDDT</a></li>
-                                <li><a href="#">EASYCA</a></li>
-                                <li><a href="#">PMKT</a></li>
-                                <li><a href="#">BHXH</a></li>
-                                <li><a href="#">HDDV</a></li>
-                            </ul>
-                        </li>
-                        <li class="softdreams"><a href="#">GIẢI PHÁP</a>
-                            <ul class="sub-menu-header">
-                                <li><a href="#">HDDT</a></li>
-                                <li><a href="#">EASYSIGN</a></li>
-                                <li><a href="#">PMKT</a></li>
-                                <li><a href="#">CLOUD</a></li>
-                                <li><a href="#">WEB</a></li>
-                                <li><a href="#">EMAIL</a></li>
-                                <li><a href="#">VOICE</a></li>
-                                <li><a href="#">HRM</a></li>
-                                <li><a href="#">CRM</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">ĐĂNG NHẬP</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <%- include('menu.ejs') %>
         <main>
             <section class="generality">
                 <div class="container">
@@ -321,58 +278,7 @@
                     </div>
                 </div>
             </section>
-            <section class="customer">
-                <div class="container">
-                    <div class="title-cus">
-                        <h2>title h2</h2>
-                        <p>text description extend</p>
-                    </div>
-                    <div class="bg-cus">
-                        <img src="#" alt="img customer">
-                    </div>
-                </div>
-            </section>
-            <section class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h5>LIÊN HỆ</h5>
-                            <p class="email">Email</p>
-                            <p class="hotline">Hotline</p>
-                            <p class="phone">SĐT</p>
-                            <p class="address">Trụ sở</p>
-                            <p class="address-cn">VPDD</p>
-                        </div>
-                        <div class="col-md-2">
-                            <h5>CÔNG TY</h5>
-                            <a href="#">Giới thiệu</a>
-                            <a href="#">Khách hàng</a>
-                            <a href="#">Báo chí</a>
-                            <a href="#">Đối tác</a>
-                            <a href="#">Tuyển dụng</a>
-                        </div>
-                        <div class="col-md-2">
-                            <h5>sẢN PHẨM</h5>
-                            <a href="#">HDDT</a>
-                            <a href="#">EASYCA</a>
-                            <a href="#">PMKT</a>
-                            <a href="#">BHXH</a>
-                            <a href="#">VOICE</a>
-                            <a href="#">CLOUD</a>
-                            <a href="#">WEB</a>
-                            <a href="#">EASYSIGN</a>
-                            <a href="#">CRM</a>
-                        </div>
-                        <div class="col-md-2">
-                            <h5>LIÊN KẾT</h5>
-                            <a href="#">YouTube</a>
-                            <a href="#">Facebook</a>
-                            <a href="#">Cập nhật</a>
-                            <a href="#">Other</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <%- include('footer.ejs') %>
         </main>
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>

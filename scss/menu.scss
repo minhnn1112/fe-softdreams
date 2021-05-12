@@ -1,0 +1,72 @@
+@import "common.scss";
+.logo {
+    width: 60px;
+    max-height: 110px;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+.header{
+    display: flex;
+    padding: 20px;
+    height: 100px;
+    background-color: #fff;
+    color: #ccc;
+    justify-content: center;
+}
+
+.menu-header a {
+    color: #ccc;
+}
+
+.menu-header a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.menu-header ul li{
+    margin-bottom: 5px;
+    min-width: 10%;
+    padding: 0 20px;
+}
+// .menu-header ul li :hover{
+//     padding-bottom: 20px;
+//     border-bottom: 4px solid #ccc;
+// }
+.softdreams {
+    position: relative;
+    &:hover .sub-menu-header{
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+.menu-header a :hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub-menu-header{
+    display: none;
+}
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hd-margin{
+    margin: 0 20px 20px 20px;
+}
+
+.menu-header {
+    width: calc(100% - 60px);
+    display: flex;
+    justify-content: flex-end;
+
+    .sub-menu {
+        @include betweenitems();
+        margin: 0;
+    }
+}
