@@ -26856,6 +26856,48 @@ body {
   display: flex;
 }
 
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-product {
+  display: flex;
+  padding: 20px;
+  height: 100px;
+  background-color: #fff;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  background-color: #1147a8;
+}
+
+.menu-prod.d-flex {
+  justify-content: flex-end;
+}
+
+.menu-prod ul {
+  display: flex;
+}
+
+.menu-prod ul li {
+  margin: 0 20px;
+}
+
+.header-product a {
+  color: #fff;
+}
+
+.header-product a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.logo-prod {
+  float: left;
+}
+
 .generality {
   width: 100%;
   display: flex;
@@ -26880,4 +26922,117 @@ body {
   right: 50px;
   max-height: 122px;
   width: calc(100% - 70%);
+}
+
+.btn-registration {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 20px;
+  float: left;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 10px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-registration:hover {
+  background-color: #fff;
+  color: #ccc;
+  text-decoration: none !important;
+}
+
+.btn-contact {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 20px;
+  float: left;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 10px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-contact:hover {
+  background-color: #fff;
+  color: #ccc;
+  text-decoration: none !important;
+}
+
+.introduce-prod {
+  margin: 10px 0;
+}
+
+.introduce-text {
+  margin: 5px;
+  text-align: center;
+}
+
+.feature {
+  background-color: green;
+  color: #fff;
+  text-align: center;
+}
+
+.title-one {
+  text-align: center;
+  margin: 50px;
+}
+
+.content-feat1 {
+  padding: 20px;
+}
+
+.text-feat {
+  margin-bottom: 20px;
+}
+
+.img-one img {
+  max-width: 100%;
+}
+
+.feature-one {
+  padding: 30px 0;
+}
+
+.feature-tow {
+  padding: 30px 0;
+}
+
+.feature-three {
+  padding: 30px 0;
+}
+
+.feature-four {
+  padding: 30px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.item-area {
+  border-radius: 5px;
+  border: 1px solid;
+  min-height: 300px;
+  background-color: #ccc;
 }
